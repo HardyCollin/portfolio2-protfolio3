@@ -1,0 +1,12 @@
+div{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #5bc0de;
+    padding: 30px;
+}
+.container{
+    border-color: blue;
+}
+.row{
+    border-color: lawngreen;
+}
