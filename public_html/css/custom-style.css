@@ -1,12 +1,10 @@
 div{
-    border-style: groove;
+    border-style: outset;
     border-width: 10px;
-    border-color: #5bc0de;
-    padding: 30px;
+    border-color: graytext;
+    padding: 70px;
+    font-size: 20px;
 }
-.container{
-    border-color: blue;
-}
-.row{
-    border-color: lawngreen;
+a{
+    padding: 10px;
 }
