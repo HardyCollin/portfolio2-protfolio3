@@ -5,14 +5,13 @@ div{
     padding: 70px;
     font-size: 20px;
     background-color: red;
-    cursor: text;
 }
 a{
   margin-top: 40px;
   margin-left: 20px;
   background-color: purple;
 }
-.container{
+.row{
     border-color: blue;
     background-color:green;
 }
