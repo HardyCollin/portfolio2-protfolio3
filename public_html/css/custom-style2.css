@@ -1,0 +1,21 @@
+div{
+    border-style: outset;
+    border-width: 10px;
+    border-color: graytext;
+    padding: 70px;
+    font-size: 20px;
+    background-color: pink;
+}
+a{
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color:silver;
+}
+.container{
+    border-color: green;
+    background-color:blue;
+}
+nav{
+    font-style: oblique;
+    background-color: gold;
+}

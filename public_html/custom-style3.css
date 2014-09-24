@@ -4,16 +4,16 @@ div{
     border-color: graytext;
     padding: 70px;
     font-size: 20px;
-    background-color: red;
+    background-color: pink;
 }
 a{
   margin-top: 40px;
   margin-left: 20px;
-  background-color: purple;
+  background-color:silver;
 }
-.row{
-    border-color: blue;
-    background-color:green;
+.container{
+    border-color: green;
+    background-color:blue;
 }
 nav{
     font-style: oblique;
