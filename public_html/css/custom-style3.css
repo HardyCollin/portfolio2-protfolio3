@@ -1,15 +1,15 @@
 div{
-    border-style: outset;
+    border-style: dashed;
     border-width: 10px;
-    border-color: graytext;
+    border-color: #269abc;
     padding: 70px;
     font-size: 20px;
-    background-color: pink;
+    background-color: yellowgreen;
 }
 a{
   margin-top: 40px;
   margin-left: 20px;
-  background-color:silver;
+  background-color:purple;
 }
 .container{
     border-color: green;

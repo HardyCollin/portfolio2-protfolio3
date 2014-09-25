@@ -4,19 +4,19 @@ div{
     border-color: graytext;
     padding: 70px;
     font-size: 20px;
-    background-color: red;
-    cursor: text;
-}
+    }
 a{
   margin-top: 40px;
   margin-left: 20px;
   background-color: purple;
 }
 .container{
-    border-color: blue;
-    background-color:green;
-}
+    }
 nav{
     font-style: oblique;
     background-color: gold;
+}
+body{
+    background-size: cover;
+    color: blue;
 }
