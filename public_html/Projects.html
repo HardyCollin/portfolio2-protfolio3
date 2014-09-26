@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Portfolio Web site/Projects</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
@@ -9,22 +9,55 @@
         <link type="text/css" rel="stylesheet" href="css/custom-style2.css">
     </head>
     <body>
-        <p>This is my new projects page and will show all the assignments i have completed.</p>
         <div class="container">
-           <div class="col-xs-2">
-                <nav class="list-group">My Pages</nav>
-                            <a class="list-group-item-danger" href="index.html">About Me</a>
-                            <a class="list-group-item-success" href="Projects.html">Projects</a>
-                            <a class="list-group-item-info" href="Technology.html">Technology</a>
-           </div>
-           <div class="col-xs-10">
-               <p>
-                   <img src="images/Portfolio Website 1.png" alt="">
-                   <br><br>
-                   <img src="images/Portfolio website 2.png" alt="">
-               </p>
-             
+            <div class="col-xs-2">
+                <nav>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            My pages
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <a role="presentation" role="menuitem" tabindex="" class="list-group-item-danger" href="index.html">About Me</a>
+                            <a role="presentation" role="menuitem" tabindex="-1" class="list-group-item-success" href="Projects.html">Projects</a>
+                            <a role="presentation" role="menuitem" tabindex="-1" class="list-group-item-info" href="Technology.html">Technology</a>
+                            <li role="presentation" class="divider"></li>
+                        </ul>
+                    </div> 
+                </nav>                   
+
+            </div>
+            <div class="col-xs-10">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner carousel-image">
+                        <div class="item active carousel-image" >
+                            <a href="http://localhost:8383/Collin%20Hardy%20-%20portfolio%20website/index.html"><img src="images/Portfolio Website 1.png" alt="..."></a>
+                        </div>
+                        <div class="item carousel-image">
+                            <a href="http://localhost:8383/Portfolio2/index.html"><img src="images/Portfolio website 2.png" alt="..."></a>
+                        </div>
+
                     </div>
-             </div> 
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

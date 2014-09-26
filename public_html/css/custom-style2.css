@@ -18,4 +18,8 @@ a{
 nav{
     font-style: oblique;
     background-color: gold;
+    padding-right: 20px;
+}
+.carousel-image{
+    border-style: none;
 }
