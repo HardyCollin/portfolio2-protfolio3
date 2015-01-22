@@ -15,23 +15,44 @@
                             <a class="list-group-item-danger active" href="index.html">About Me</a>
                             <a class="list-group-item-success active" href="Projects.html">Projects</a>
                             <a class="list-group-item-info active" href="Technology.html">Technology</a>
+                            <a class="list-group-item-info active" href="index_1.html">JQUERY</a>
+                            
            </div>
            <div class="col-xs-10">
-               <article>
-          <h2>My name is Collin and I play soccer.</h2>
-          <p>I am learning computer science at<a href="http://phs.pasadenausd.org/">Pasadena High School</a>. I am in 12th grade 
+               My name is Collin
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         About me
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+            <p>I am learning computer science at<a href="http://phs.pasadenausd.org/">Pasadena High School</a>. I am in 12th grade 
               and I am 16 years old.<br>
               Some of my hobbies are riding my bike and going to car shows.
               I live with both my parents, a younger brother, and a dog.</p>
-               </article>
-             <div class="col-xs-2">
-                 <p>More<br> About<br> Me</p>
-                        </div>
-                        <div class="col-xs-10">
-                            
-                        </div>
-                    </div>
-             </div> 
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         My hobbies
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+          My hobbies include soccer, biking,running, volunteering, and hiking
+      </div>
+    </div>
+  </div>
+</div>
+                   
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
         </body>
